@@ -260,3 +260,58 @@ footer {
 .github-link:hover svg {
     fill: #c8ff00;
 }
+
+/* ── RESPONSIVO CELULAR ── */
+@media (max-width: 768px) {
+
+    nav {
+        padding: 20px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 60px;
+    }
+
+    .sobre {
+        padding: 60px 20px;
+    }
+
+    .stats {
+        flex-direction: column;
+    }
+
+    .stat-box {
+        width: 100%;
+    }
+
+    .habilidades {
+        padding: 60px 20px;
+    }
+
+    .habilidades-grid {
+        flex-direction: column;
+    }
+
+    .hab-item {
+        width: 100%;
+    }
+
+    .projetos {
+        padding: 60px 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 20px;
+        padding: 40px 20px;
+        text-align: center;
+    }
+}
